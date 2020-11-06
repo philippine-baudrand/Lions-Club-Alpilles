@@ -1,8 +1,14 @@
 // == Import npm
 import React from 'react';
 import './header.scss';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
-    <h1> TEST </h1>
+    <div>
+    <h1> Header </h1>
+    <Link to="/home">
+      <button >Home</button>
+    </Link>
+    </div>
 );
 export default Header;

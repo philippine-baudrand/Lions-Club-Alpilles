@@ -3,7 +3,7 @@ import React from 'react';
 
 // == Import
 import Header from '../Header/header';
-// import Footer from '../Footer';
+import Footer from '../Footer/footer';
 // import Club from '../Club';
 // import Contact from '../Contact';
 // import Evt from '../Evt';
@@ -13,6 +13,7 @@ import './app.scss';
 const App = () => (
   <div className="app">
     <Header />
+    <Footer />
 
   </div>
 );
