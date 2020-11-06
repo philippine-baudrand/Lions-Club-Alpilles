@@ -30,3 +30,10 @@ Projet bénévole pour le Lion's club féminin des Alpilles.
 
 6. Une page contact.
 
+    <Home />
+    <Club />
+    <Evt />
+    <Members />
+    <Photos />
+    <Contact />
+    <Footer />
