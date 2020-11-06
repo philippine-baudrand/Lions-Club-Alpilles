@@ -4,9 +4,9 @@ import { Route, Switch } from 'react-router-dom';
 // == Import
 
 import Home from '../Home/home';
-// import Club from '../Club';
-// import Contact from '../Contact';
-// import Evt from '../Evt';
+import Club from '../Club/club';
+import Contact from '../Contact/contact';
+import Evt from '../Evt/evt';
 import './app.scss';
 
 // == Composant
@@ -15,6 +15,15 @@ const App = () => (
     <Switch>
       <Route exact path="/home">
         <Home />
+      </Route>
+      <Route exact path="/club">
+        <Club />
+      </Route>
+      <Route exact path="/contact">
+        <Contact />
+      </Route>
+      <Route exact path="/evt">
+        <Evt />
       </Route>
     </Switch>
 
