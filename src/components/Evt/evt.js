@@ -7,9 +7,9 @@ import Header from '../Header/header';
 const Evt = () => (
 
   <div>
-  <h1> Evt </h1>
-  <Header />
-  <Footer />
-</div>
+    <h1> Evt </h1>
+    <Header />
+    <Footer />
+  </div>
 );
 export default Evt;
