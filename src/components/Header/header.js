@@ -21,7 +21,7 @@ const Header = () => (
 
       <span>
       <Link className="mainLogo" to="/evt">
-        <button className="navbar">Evènements</button>
+        <button className="navbar">évènements</button>
         </Link>
       </span>
 
