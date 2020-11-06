@@ -11,12 +11,6 @@ const App = () => (
   <div className="app">
     <Header />
 
-    <Club />
-    <Evt />
-    <Members />
-    <Photos />
-    <Contact />
-    <Footer />
   </div>
 );
 
