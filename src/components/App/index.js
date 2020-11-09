@@ -11,6 +11,7 @@ import Members from '../Members/members';
 import Photo from '../Photo/photo';
 import './app.scss';
 
+
 // == Composant
 const App = () => (
   <div className="app">

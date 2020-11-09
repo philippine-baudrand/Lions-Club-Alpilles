@@ -1,9 +1,18 @@
+@use './../../_vars.sass';
+
+
 .lions-presentation {
   width: 100%;
   display:flex;
   flex-direction: row;
   margin : 1%;
   padding: 2%;
+}
+
+h1 {
+  color: rgb(18, 46, 87);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .text-presentation {
