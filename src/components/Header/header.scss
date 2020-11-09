@@ -26,10 +26,14 @@
   color:white;
   text-transform: uppercase;
   border-radius: 10px;
- 
-  
 }
+
 
 .navbar-lions:hover {
   zoom: 1.2;
+}
+
+.navbar-lions:focus {
+  background-color: white;
+  color:rgb(18, 46, 87);
 }
