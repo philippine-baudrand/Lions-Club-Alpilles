@@ -28,11 +28,12 @@
   border-radius: 10px;
 }
 
-.navbar-lions:checked {
-  background-color: white;
-  color:rgb(18, 46, 87);
-}
 
 .navbar-lions:hover {
   zoom: 1.2;
+}
+
+.navbar-lions:focus {
+  background-color: white;
+  color:rgb(18, 46, 87);
 }

@@ -28,7 +28,7 @@ const Club = () => (
 
         Le Lions Clubs International est la plus grande organisation de clubs service dans le monde, avec 1,4 million de membres dans à peu près 46 000 clubs, répartis dans plus de 200 pays et aires géographiques à travers le monde.
 
-    <h2>Réunions</h2>
+    <h1>Réunions</h1>
 Quand ?:
 2ème et 4ème mercredis du mois
 Où ?:

@@ -1,6 +1,3 @@
-@use './../../_vars.sass';
-
-
 .lions-presentation {
   width: 100%;
   display:flex;
@@ -13,6 +10,8 @@ h1 {
   color: rgb(18, 46, 87);
   text-transform: uppercase;
   font-weight: bold;
+  margin: 1%;
+  text-align: center;
 }
 
 .text-presentation {
@@ -20,7 +19,7 @@ h1 {
   background-color: #D6DBDF;
   padding:2%;
   margin:1%;
-  text-align: justify;
+  text-align: left;
   line-height: 30px;
   border-radius: 10px;
 }
