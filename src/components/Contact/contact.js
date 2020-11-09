@@ -6,10 +6,13 @@ import Header from '../Header/header';
 
 const Contact = () => (
   <div>
-    <h1> Contact </h1>
+
     <Header />
     <p>
-      Vous pouvez contacter notre équipe au 06 10 03 78 84
+      Vous pouvez contacter notre équipe au <a className="telLink" href="tel:+33610037884">06 10 03 78 84</a>
+    </p>
+    <p>
+      Ou bien par email à l'adresse suivante <a className="emailLink" href="mailto:j.hibelot@laposte.net">j.hibelot@laposte.net</a>
     </p>
     <p>
       Notre présidente se fera un plaisir de vous répondre
