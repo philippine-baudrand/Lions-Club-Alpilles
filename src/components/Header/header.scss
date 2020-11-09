@@ -1,0 +1,35 @@
+.header-lions {
+  margin: 1%;
+  padding:1%;
+}
+
+.bloc-navbar-lions {
+  background-color: rgb(254, 207, 6, .5);
+  display:flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 2%;
+  border-radius: 10px;
+  
+}
+.span-nav {
+  margin: 1%;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.navbar-lions {
+  border:solid 1px;
+  margin:1%;
+  padding:10%;
+  background-color: rgb(18, 46, 87);
+  color:white;
+  text-transform: uppercase;
+  border-radius: 10px;
+ 
+  
+}
+
+.navbar-lions:hover {
+  zoom: 1.2;
+}

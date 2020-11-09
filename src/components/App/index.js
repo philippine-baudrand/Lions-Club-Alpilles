@@ -7,6 +7,8 @@ import Home from '../Home/home';
 import Club from '../Club/club';
 import Contact from '../Contact/contact';
 import Evt from '../Evt/evt';
+import Members from '../Members/members';
+import Photo from '../Photo/photo';
 import './app.scss';
 
 // == Composant
@@ -24,6 +26,12 @@ const App = () => (
       </Route>
       <Route exact path="/evt">
         <Evt />
+      </Route>
+      <Route exact path="/members">
+        <Members />
+      </Route>
+      <Route exact path="/photo">
+        <Photo />
       </Route>
     </Switch>
 
