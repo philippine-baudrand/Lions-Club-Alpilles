@@ -1,11 +1,14 @@
 .footer
 {
     background-color:#4285F4 ;
+    height: 150px;
 };
 
 .footer_corp
 {
-
+    height: 100%;
+    color: white;
+    font-weight: bold;
 };
 
 .footer_mention
@@ -17,4 +20,6 @@
 {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 85%;
+    margin-top: 5%;
 };
