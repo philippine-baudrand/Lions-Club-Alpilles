@@ -7,7 +7,8 @@ import Header from '../Header/header';
 const Club = () => (
   <div>
     <Header />
-    <h1> Club </h1>
+    <div className="club">
+    <h1> Club paradou les alpilles </h1>
     <div className="paragraph">
     <h1>Club Féminin Paradou les Alpilles</h1>
     <p>Le Lions Club PARADOU LES ALPILLES regroupent dans la convivialité et l'esprit de bonne camaraderie 29 FEMMES autour des valeurs humanistes du LIONISME</p>
@@ -38,6 +39,7 @@ Quand ?:
 2ème et 4ème mercredis du mois
 Où ?:
 2ème mercredi du mois - réunion statutaire suivi d'un repas - Salle polyvalente de Paradou les Alpilles 4ème mercredi du mois - réunion à la maison des associations d'Arles
+</div>
 </div>
     <Footer />
   </div>
