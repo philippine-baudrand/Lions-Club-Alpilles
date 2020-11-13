@@ -1,18 +1,25 @@
-.footer
+footer
 {
-    background-color:#00529C ;
-   
-    padding: 2%;
+    background-color:#00529C ;  
     border-radius: 10px;
     margin: 1%;
+    display: flex;
+    bottom: 0 ; 
 };
 
 .footer_corp
 {
-
-    color: white;
     font-weight: bold;
-    padding:2%;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    background-color: #EEC611;
+    border: none;
+    text-align:center;
+    justify-content: center;
+    padding: 1% 1%;
+    color:#00529C;
+    margin: 20px auto 10px auto;
+    width: max-content;
 };
 
 .footer_mention
@@ -26,3 +33,14 @@
     justify-content: center;
     padding : 1%;
 };
+
+.facebook {
+    width:11%;
+    height:11%;
+    cursor: pointer;
+    padding:1%;
+  }
+
+  .copiright {
+    padding:1%;
+  }

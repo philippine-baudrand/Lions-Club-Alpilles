@@ -19,6 +19,9 @@ import './app.scss';
 const App = () => (
   <div className="app">
     <Switch>
+    <Route exact path="/">
+        <Home />
+      </Route>
       <Route exact path="/home">
         <Home />
       </Route>
