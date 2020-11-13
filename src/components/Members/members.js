@@ -9,16 +9,18 @@ const Members = ( props ) => {
     return (
     <div className="member">
     <Header />  
-    <h1> Members </h1>
+    <h1 className="member_title"> Members </h1>
       <div className="card">
         {
           list.map((cardObject) =>
           <div className="card_unit">
             <h3 className="card_name">{cardObject.name}</h3>
-            <div className="">
-              <img  src={cardObject.photo}/>  
+            <div >
+              <img  
+              src={cardObject.photo}
+              className="card_img"/>  
             </div>
-            <p> {cardObject.fonction} </p>
+            <p className="card_function"> {cardObject.fonction} </p>
           </div>
           )
         }

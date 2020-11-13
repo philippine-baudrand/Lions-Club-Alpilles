@@ -6,8 +6,8 @@ import Header from '../Header/header';
 
 const Club = () => (
   <div>
-    <h1> Club </h1>
     <Header />
+    <h1> Club </h1>
 
     <h1>Club Féminin Paradou les Alpilles</h1>
     <p>Le Lions Club PARADOU LES ALPILLES regroupent dans la convivialité et l'esprit de bonne camaraderie 29 FEMMES autour des valeurs humanistes du LIONISME</p>

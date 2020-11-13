@@ -1,0 +1,46 @@
+.member
+{
+    
+};
+
+.member_title
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+};
+
+.card
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+};
+
+.card_unit
+{
+    width: 23%;
+    height: 40%;
+    margin: 1rem;
+
+};
+
+.card_name
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem;
+};
+
+.card_img
+{
+    border-radius: 1rem;
+    width: 100%;
+};
+
+.card_function
+{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+};
