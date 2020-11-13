@@ -4,7 +4,7 @@
 }
 
 .bloc-navbar-lions {
-  background-color: rgb(254, 207, 6, .5);
+  background-color: #EEC611;
   display:flex;
   flex-direction: row;
   max-width: 100%;
@@ -19,21 +19,22 @@
 }
 
 .navbar-lions {
-  border:solid 1px;
   margin:1%;
   padding:10%;
-  background-color: rgb(18, 46, 87);
+  background-color: #00529C;
   color:white;
   text-transform: uppercase;
   border-radius: 10px;
+  border:none;
 }
 
 
 .navbar-lions:hover {
-  zoom: 1.2;
-}
+  background-color: white;
+  color:#00529C;
+} 
 
 .navbar-lions:focus {
   background-color: white;
-  color:rgb(18, 46, 87);
+  color:#00529C;
 }

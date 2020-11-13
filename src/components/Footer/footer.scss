@@ -1,17 +1,18 @@
 .footer
 {
-    background-color:#4285F4 ;
-    height: 150px;
+    background-color:#00529C ;
+   
     padding: 2%;
     border-radius: 10px;
-    margin: 2%;
+    margin: 1%;
 };
 
 .footer_corp
 {
-    height: 100%;
+
     color: white;
     font-weight: bold;
+    padding:2%;
 };
 
 .footer_mention
@@ -22,7 +23,6 @@
 .footer_link
 {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 85%;
-    margin-top: 5%;
+    justify-content: center;
+    padding : 1%;
 };

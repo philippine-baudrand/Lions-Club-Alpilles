@@ -1,37 +1,55 @@
 export default [
     {
         name: ' Jean-Michel',
-        photo: '',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
         fonction: ' Présidente  ',
     },
 
     {
         name: ' Pauline',
-        photo: '',
-        fonction: ' trésorier ',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: ' Trésorier ',
     },
 
     {
         name: ' Djewely',
-        photo: '',
-        fonction: ' comptable ',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: ' Comptable ',
     },
 
     {
         name: ' Pierre',
-        photo: '',
-        fonction: ' secrétaire',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: ' Secrétaire',
     },
 
     {
-        name: ' Paul',
-        photo: '',
-        fonction: 'vice président',
+        name: ' Johanna',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: 'Vice président',
     },
 
     {
         name: ' Jacques',
-        photo: '',
-        fonction: 'bénévole',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: 'Bénévole',
+    },
+
+    {
+        name: ' Jean',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: 'Bénévole ',
+    },
+
+    {
+        name: ' Patrick',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: 'Bénévole',
+    },
+
+    {
+        name: ' Hugues',
+        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
+        fonction: 'Bénévole',
     },
 ];

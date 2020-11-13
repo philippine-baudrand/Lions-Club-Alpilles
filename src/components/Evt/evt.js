@@ -7,8 +7,8 @@ import Header from '../Header/header';
 const Evt = () => (
 
   <div>
-    <h1> Evt </h1>
     <Header />
+    <h1> Evt </h1>
     <p>
       Nous sommes fiers de vous présenter ici nos évènements
     </p>

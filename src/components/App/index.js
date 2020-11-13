@@ -9,6 +9,9 @@ import Contact from '../Contact/contact';
 import Evt from '../Evt/evt';
 import Members from '../Members/members';
 import Photo from '../Photo/photo';
+import data from '../../data/data';
+import photoData from '../../data/photo-data';
+
 import './app.scss';
 
 
@@ -29,10 +32,10 @@ const App = () => (
         <Evt />
       </Route>
       <Route exact path="/members">
-        <Members />
+        <Members list={data}/>
       </Route>
       <Route exact path="/photo">
-        <Photo />
+        <Photo pictureList={photoData}/>
       </Route>
     </Switch>
 
