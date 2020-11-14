@@ -1,10 +1,11 @@
 footer
 {
-    background-color:#00529C ;  
+    background: radial-gradient(circle, rgba(0,82,156,1) 0%, rgba(19,54,85,1) 130%); 
     border-radius: 10px;
     margin: 1%;
     display: flex;
     bottom: 0 ; 
+    box-shadow: 3px 3px 20px black;
 };
 
 .footer_corp
@@ -20,6 +21,7 @@ footer
     color:#00529C;
     margin: 20px auto 10px auto;
     width: max-content;
+    box-shadow: inset 2px 2px 2px #F2E8BA , 3px 3px 20px black;
 };
 
 .footer_mention

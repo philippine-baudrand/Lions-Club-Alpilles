@@ -3,7 +3,7 @@ import React from 'react';
 import './home.scss';
 //import Carousel from 'react-bootstrap/Carousel';
 import Footer from '../Footer/footer';
-import photo from './logolions.jpg';
+import photo from './logolions.png';
 //import photo2 from './foire-gras-20.jpg';
 import Header from '../Header/header';
 //import 'bootstrap/dist/css/bootstrap.min.css';

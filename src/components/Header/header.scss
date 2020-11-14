@@ -4,7 +4,7 @@
 }
 
 .bloc-navbar-lions {
-  background-color: #00529C;
+  background: radial-gradient(circle, rgba(0,82,156,1) 0%, rgba(19,54,85,1) 130%);
   display:flex;
   flex-direction: row;
   max-width: 100%;
@@ -21,13 +21,13 @@
 .navbar-lions {
   margin:1%;
   padding:10%;
-  background-color:#EEC611 ;
+  background: radial-gradient(circle, rgba(255,207,1,1) 0%, rgba(147,126,47,1) 130%);
   color:#00529C;
   text-transform: uppercase;
   border-radius: 10px;
   border:none;
   font-weight: bold;
-  box-shadow: inset 2px 2px 2px #F2E8BA , 3px 3px 20px black;
+  box-shadow:  3px 3px 20px black;
  
 }
 
