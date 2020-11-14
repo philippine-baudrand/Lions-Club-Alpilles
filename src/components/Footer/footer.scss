@@ -13,7 +13,7 @@ footer
     font-weight: bold;
     box-sizing: border-box;
     border-radius: 10px; 
-    background-color: #EEC611;
+    background: radial-gradient(circle, rgba(255,207,1,1) 0%, rgba(147,126,47,1) 150%);
     border: none;
     text-align:center;
     justify-content: center;
@@ -21,7 +21,7 @@ footer
     color:#00529C;
     margin: 20px auto 10px auto;
     width: max-content;
-    box-shadow: inset 2px 2px 2px #F2E8BA , 3px 3px 20px black;
+    box-shadow:  3px 3px 20px black;
 };
 
 .footer_mention
