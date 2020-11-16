@@ -17,6 +17,7 @@ const Home = () => (
         <img className="picture" src={photo} alt="lions-woman" />
       </span>
       <div className="text-presentation">
+        <h2>Convivialité et humnisme, 29 femmes lionistes</h2>
         <span className="text1-presentation">
           <h1>Qu'est ce que le Lions Club International?</h1>
             Aujourd'hui, le Lions International est la plus grande association internationale de Clubs-Services du monde avec 1,35 million de membres dans 45 000 clubs répartis dans 206 pays, chaque pays disposant d'ailleurs d'une large autonomie qui lui permet de manifester son identité culturelle dans l'Association.

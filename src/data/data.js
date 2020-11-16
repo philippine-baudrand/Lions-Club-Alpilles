@@ -1,6 +1,6 @@
 export default [
     {
-        name: ' Jean-Michel',
+        name: ' Joëlle De Jager',
         photo: 'https://cdn.discordapp.com/attachments/776028623555395634/776389881592283166/Devis.jpg',
         fonction: ' Présidente  ',
     },
