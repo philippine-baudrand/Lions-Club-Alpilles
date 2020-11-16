@@ -1,6 +1,15 @@
+.contact_main
+{
+    height: 576px;
+};
+
+/*
+* Link
+*/
 .emailLink {
     color: blue;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .telLink {
@@ -10,3 +19,11 @@
 .telLink:hover {
     color:blue;
 }
+
+
+span:before {content:" "; display: block; }
+
+.contact_main
+{
+    line-height: 2;
+};
