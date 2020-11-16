@@ -17,10 +17,12 @@ const FoireGras = () => (
 
         <div className="paragraph">
 
-          <p>Cette année, en raison de la crise sanitaire, la Foire Gourmande au Gras de Fontvieille est annulée dans son format habituel.</p>
-          <div className="">
-            <span>A défaut de pouvoir déambuler parmis les stands, un drive s'organise pour que vous puissiez récupérer tous vos produits préférés, pour vos fêtes de fin d'année!
-            </span>
+          <div className="bloc-foire-gras">
+            <div>
+              <p>Cette année, en raison de la crise sanitaire, la Foire Gourmande au Gras de Fontvieille est annulée dans son format habituel.</p>
+              <span>A défaut de pouvoir déambuler parmis les stands, un drive s'organise pour que vous puissiez récupérer tous vos produits préférés, pour vos fêtes de fin d'année!
+              </span>
+            </div>
             <span>
               <img className="christmas" src="https://images.unsplash.com/photo-1577015467226-9c3974439d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="christmas diner" />
             </span>

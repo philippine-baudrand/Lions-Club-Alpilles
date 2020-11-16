@@ -11,12 +11,12 @@ const Club = () => (
 
     <div className="paragraph">
     <h1>Club Féminin Paradou les Alpilles</h1>
-    <p>Le Lions Club PARADOU LES ALPILLES regroupent dans la convivialité et l'esprit de bonne camaraderie 29 FEMMES autour des valeurs humanistes du LIONISME</p>
+    <p>Le Lions Club Paradou-Les-Alpilles regroupent dans la convivialité et l'esprit de bonne camaraderie 29 femmes autour des valeurs humanistes du Lionisme</p>
     </div>
     <div className="paragraph">
     <h1>QUI SONT LES LIONS?</h1>
 
-    Des hommes et des femmes libres qui ont ajouté à leur vie une dimension humaniste et humanitaire. Une devise : "NOUS SERVONS". 
+    Des hommes et des femmes libres qui ont ajouté à leur vie une dimension humaniste et humanitaire. Une devise : "Nous Servons". 
     </div>
     <div className="paragraph">
     <h1>QUELLES SONT LES VALEURS LIONS?</h1>
@@ -24,8 +24,8 @@ const Club = () => (
         </div>
     <div className="paragraph">
     <h1>QUE FONT LES LIONS?</h1>
-        Les Lions visent à l'épanouissement de la personne humaine. Ils développement de multiples opérations locales, nationales et internationales dans le domaine du SAVOIR, de l'ÉDUCATION et de la CULTURE. Ils favorisent le RAPPROCHEMENT ENTRE LES PEUPLES par les ECHANGES de jeunes du monde entier.
-        Les Lions apportent leur SOUTIEN AUX PLUS DÉMUNIS. Leurs actions peuvent être mondiales, comme lors de catastrophes naturelles majeures ou pour des programmes en faveur de grandes causes telle que la LUTTE CONTRE LA CÉCITÉ. Au quotidien, elles sont nationales et locales, reflétant l'implication profonde des Lions dans la vie de la cité.
+        Les Lions visent à l'épanouissement de la personne humaine. Ils développement de multiples opérations locales, nationales et internationales dans le domaine du Savoir, de l'Éducation et de la Culture. Ils favorisent le rapprochement entre les peuples par les échanges de jeunes du monde entier.
+        Les Lions apportent leur soutien aux plus démunis. Leurs actions peuvent être mondiales, comme lors de catastrophes naturelles majeures ou pour des programmes en faveur de grandes causes telle que la Lutte contre la Cécité. Au quotidien, elles sont nationales et locales, reflétant l'implication profonde des Lions dans la vie de la cité.
         </div>
     <div className="paragraph">
     <h1>COMMENT SE FINANCENT-ILS?</h1>
