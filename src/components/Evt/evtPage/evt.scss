@@ -1,0 +1,19 @@
+.go-back {
+    margin:1%;
+    padding:10%;
+    background: radial-gradient(circle, rgba(0,82,156,1) 0%, rgba(19,54,85,1) 130%);
+    color:white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    box-shadow:  3px 3px 20px black;   
+    max-width: 10%;
+    max-height: 1%;
+
+}
+
+.go-back:hover {
+    background: radial-gradient(circle, rgba(255,207,1,1) 0%, rgba(147,126,47,1) 150%);
+    color:#00529C;
+  } 

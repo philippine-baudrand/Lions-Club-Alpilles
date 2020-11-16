@@ -11,6 +11,10 @@ import Members from '../Members/members';
 import Photo from '../Photo/photo';
 import data from '../../data/data';
 import photoData from '../../data/photo-data';
+import FoireGras from '../Evt/evtPage/foireAuGras';
+import VideCommode from '../Evt/evtPage/videCommode';
+import SalonCreateurs from '../Evt/evtPage/salonCréateurs';
+import Telethon from '../Evt/evtPage/téléthon';
 
 import './app.scss';
 
@@ -39,6 +43,18 @@ const App = () => (
       </Route>
       <Route exact path="/photo">
         <Photo pictureList={photoData}/>
+      </Route>
+      <Route exact path="/foire-au-gras">
+        <FoireGras />
+      </Route>
+      <Route exact path="/vide-commode">
+        <VideCommode />
+      </Route>
+      <Route exact path="/salon-créateurs">
+        <SalonCreateurs />
+      </Route>
+      <Route exact path="/telethon">
+        <Telethon />
       </Route>
     </Switch>
 

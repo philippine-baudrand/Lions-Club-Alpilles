@@ -4,6 +4,8 @@ import './evt.scss';
 import Footer from '../Footer/footer';
 import Header from '../Header/header';
 
+import { Link } from 'react-router-dom';
+
 const Evt = () => (
 
   <div>
@@ -13,16 +15,17 @@ const Evt = () => (
       Nous sommes fiers de vous présenter ici nos évènements
     </p>
     <p>
-      La foire gourmande au Gras
+      <Link to="/foire-au-gras"><span>La foire gourmande au Gras</span></Link>
     </p>
     <p>
-      Le vide commode d'Arlesiennes
+    <Link to="/vide-commode"><span>Le vide commode d'Arlesiennes</span></Link>
     </p>
     <p>
-      Le salon des créateurs
+    <Link to="/salon-créateurs"><span>Le salon des créateurs</span></Link>     
     </p>
     <p>
-      Le Téléthon
+    <Link to="/telethon"><span>Le Téléthon</span></Link>
+      
     </p>
   
     <Footer />
