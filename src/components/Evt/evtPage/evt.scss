@@ -16,4 +16,22 @@
 .go-back:hover {
     background: radial-gradient(circle, rgba(255,207,1,1) 0%, rgba(147,126,47,1) 150%);
     color:#00529C;
+
   } 
+
+ .bandeau-foire-gras {
+    box-sizing: content-box;
+    width: 50%;
+
+ }
+ .bandeau-vide-commode {
+    box-sizing: content-box;
+    width: 20%;  
+ }
+
+ .bloc-foire-gras {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: black;
+ }
