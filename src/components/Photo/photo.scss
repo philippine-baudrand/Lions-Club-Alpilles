@@ -1,0 +1,40 @@
+.picture
+{
+
+};
+
+.picture_title
+{
+    font-size: 1.7rem;
+};
+
+.picture_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+};
+
+/* 
+* Cards
+*/
+
+.card_picture_unit
+{
+    width: 30%;
+    margin: 1rem 1rem 2rem;
+};
+
+.card_picture_name
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1rem;
+};
+
+.card_picture_img
+{
+    width: 50%;
+    height: 85%;
+    border-radius: 35px;
+};
