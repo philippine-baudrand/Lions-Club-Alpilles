@@ -11,23 +11,21 @@ const Evt = () => (
   <div>
     <Header />
     <h1> Evt </h1>
-    <p>
-      Nous sommes fiers de vous présenter ici nos évènements
-    </p>
-    <p>
-      <Link to="/foire-au-gras"><span>La foire gourmande au Gras</span></Link>
-    </p>
-    <p>
-    <Link to="/vide-commode"><span>Le vide commode d'Arlesiennes</span></Link>
-    </p>
-    <p>
-    <Link to="/salon-créateurs"><span>Le salon des créateurs</span></Link>     
-    </p>
-    <p>
-    <Link to="/telethon"><span>Le Téléthon</span></Link>
-      
-    </p>
-  
+      <h2>
+        Nous sommes fiers de vous présenter ici nos évènements
+      </h2>
+      <p>
+        <Link to="/foire-au-gras"><span>La foire gourmande au Gras</span></Link>
+      </p>
+      <p>
+        <Link to="/vide-commode"><span>Le vide commode d'Arlesiennes</span></Link>
+      </p>
+      <p>
+        <Link to="/salon-créateurs"><span>Le salon des créateurs</span></Link>     
+      </p>
+      <p>
+        <Link to="/telethon"><span>Le Téléthon</span></Link>        
+      </p> 
     <Footer />
   </div>
 );
