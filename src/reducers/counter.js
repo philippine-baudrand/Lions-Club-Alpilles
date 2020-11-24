@@ -1,4 +1,4 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER } from '../actions';
+import { INCREMENT_COUNTER, DECREMENT_COUNTER, SET_NAME } from '../actions';
 
 const initialState = {
   name: 'The Counter',
@@ -19,7 +19,7 @@ const counter = (state = initialState, action = {}) => {
       };
     default:
       return state;
-  }
+  };
 };
 
 export default counter;

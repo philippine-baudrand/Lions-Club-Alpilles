@@ -15,9 +15,7 @@ import FoireGras from '../Evt/evtPage/foireAuGras';
 import VideCommode from '../Evt/evtPage/videCommode';
 import SalonCreateurs from '../Evt/evtPage/salonCréateurs';
 import Telethon from '../Evt/evtPage/téléthon';
-
 import './app.scss';
-
 
 // == Composant
 const App = () => (
