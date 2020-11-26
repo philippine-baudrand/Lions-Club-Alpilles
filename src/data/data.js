@@ -7,13 +7,13 @@ export default [
     
     {
         name: ' Marie Claude ROBLES ',
-        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/777830946870263828/blank-profile-picture-973460_640.png',
+        photo: 'https://media.discordapp.net/attachments/739121254438666292/781458508042076160/32121.jpg',
         fonction: ' Secrétaire',
     },
 
     {
         name: ' Sophie Guido ',
-        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/777830946870263828/blank-profile-picture-973460_640.png',
+        photo: 'https://media.discordapp.net/attachments/739121254438666292/781458511246524416/11888617_10153495316334788_2947903643202887311_o.jpg?width=1186&height=1186',
         fonction: ' Trésoriere ',
     },
 
@@ -37,7 +37,7 @@ export default [
 
     {
         name: ' Arnaudo Fabienne ',
-        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/777830946870263828/blank-profile-picture-973460_640.png',
+        photo: 'https://media.discordapp.net/attachments/739121254438666292/781458512777183252/89030777_230948678081474_2748352957144629248_n.jpg',
         fonction: 'Bénévole ',
     },
 
