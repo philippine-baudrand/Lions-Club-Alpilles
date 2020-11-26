@@ -22,7 +22,7 @@ import './app.scss';
 // TODO CLUB : Revoir le css ( mise en page et ajout de photo ou logo )
 // TODO EVT : Faire la mise en page de événement avec lien ect 
 // TODO MEMBERS : Revoir la mise en page des img ( mobile )
-// TODO PHOTO : Mettre en ligne des photos ( et la mise en page )
+// TODO PHOTO : Verifier le css en version mobile.
 // TODO CONTACT : Faire le css du formulaire et faire les vérifications nécéssaire.
 
 
