@@ -18,10 +18,10 @@ import Telethon from '../Evt/evtPage/téléthon';
 import './app.scss';
 
 
-// TODO HOME : faire une petites cards evt sur la page d'accueil avec un btn qui renvoi sur la page de l'evenement 
+// TODO HOME : faire des petites cards evt sur la page d'accueil avec un btn qui renvoi sur la page de l'evenement et pensez a verfier le css en mobile ( pas fait ) 
 // TODO CLUB : Revoir le css ( mise en page et ajout de photo ou logo )
 // TODO EVT : Faire la mise en page de événement avec lien ect 
-// TODO MEMBERS : Revoir la mise en page des img
+// TODO MEMBERS : Revoir la mise en page des img ( mobile )
 // TODO PHOTO : Mettre en ligne des photos ( et la mise en page )
 // TODO CONTACT : Faire le css du formulaire et faire les vérifications nécéssaire.
 
