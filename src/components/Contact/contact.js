@@ -48,10 +48,10 @@ const Contact = () => {
           <span>Vous pouvez contacter notre équipe au <a href="tel:+33610037884"> 06 10 03 78 84 </a></span>
           <span>Ou bien par email à l'adresse suivante <a className="emailLink" href="mailto:j.hibelot@laposte.net"> j.hibelot@laposte.net </a></span>
           <span>Notre présidente se fera un plaisir de vous répondre.</span>
-        </address>
-    </div>
-    <form className="contact-form">
+       
+    
       <h2>Contactez-nous</h2>
+    <form className="contact-form">
       <div className="form-content">
         <input
           type="text"
@@ -91,13 +91,15 @@ const Contact = () => {
         />
       </div>
       <input
-        className="button"
+        className="go-back"
         type="button"
         value="Envoyer"
         onClick={handleSubmit}
       />
       <div className="form-message"></div>
     </form>
+    </address>
+    </div>
     <Footer />
 </div>
   );

@@ -1,6 +1,6 @@
 .contact_main
 {
-     height: 576px;
+/*      height: 576px; */
 };
 
 /*
@@ -27,3 +27,12 @@ span:before {content:" "; display: block; }
 {
     line-height: 2;
 };
+
+.contact-form {
+    border: solid 1px;
+    display:flex;
+}
+
+.form-content {
+    justify-content: center;
+}
