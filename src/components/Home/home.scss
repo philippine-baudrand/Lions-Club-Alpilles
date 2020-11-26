@@ -1,9 +1,6 @@
 .lions-presentation {
   width: 100%;
-  display:flex;
-  flex-direction: row;
-  
-
+  display: block;
 }
 
 h1 {
@@ -12,12 +9,22 @@ h1 {
   font-weight: bold;
   margin: 1%;
   text-align: center;
+  font-size: 1.8rem;
 }
 
+h2 {
+  color: #00529c;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1%;
+  text-align: center;
+  float: left;
+  width: 77%;
+}
 .text-presentation {
   display: flex;
   flex-direction: column;
-  width: 130%;
+  width: 100%;
 }
 
 .text1-presentation {
@@ -52,7 +59,53 @@ h1 {
 }
 
 .picture {
-  max-width: 100%;
-  max-height: 100%;
-  
+  /* max-width: 100%; */
+  width: 200px;
+  float: left;
+  /* max-height: 100%; */
+  margin-left: 1rem;
+  padding-bottom: 5%;
 }
+
+/*
+* Cards 
+*/ 
+
+.cards-presentation
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+};
+
+.cards
+{
+  width: 100%;
+  height: 300px;
+  border: 2px solid #00529c;
+  border-radius: 25px;
+  margin: 1rem;
+}
+
+.cards-title
+{
+  color: #00529c;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 2%;
+};
+
+.cards-img
+{
+  height: 100px;
+  width: 150px;
+  margin: auto;
+};
+
+.cards-text
+{
+  line-height: 1.5;
+  padding: 2%;
+};
