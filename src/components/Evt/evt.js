@@ -10,7 +10,6 @@ const Evt = () => (
 
   <div>
     <Header />
-    <h1> Evt </h1>
       <h2>
         Nous sommes fiers de vous présenter ici nos évènements
       </h2>
