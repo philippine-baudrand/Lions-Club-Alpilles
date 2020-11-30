@@ -15,6 +15,8 @@ import FoireGras from '../Evt/evtPage/foireAuGras';
 import VideCommode from '../Evt/evtPage/videCommode';
 import SalonCreateurs from '../Evt/evtPage/salonCréateurs';
 import Telethon from '../Evt/evtPage/téléthon';
+import Legal from '../Legal';
+import NotFound from '../NotFound';
 import './app.scss';
 
 
@@ -24,6 +26,8 @@ import './app.scss';
 // TODO MEMBERS : Revoir la mise en page des img ( mobile )
 // TODO PHOTO : Verifier le css en version mobile.
 // TODO CONTACT : Faire le css du formulaire et faire les vérifications nécéssaire.
+// TODO faire une 404
+// TODO faire les mentions légales
 
 
 // == Composant
@@ -63,6 +67,12 @@ const App = () => (
       <Route exact path="/telethon">
         <Telethon />
       </Route>
+      <Route exact path="/legal">
+        <Legal />
+      </Route>
+      <Route>
+          <NotFound />
+        </Route>
     </Switch>
 
   </div>
