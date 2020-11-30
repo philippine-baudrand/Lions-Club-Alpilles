@@ -90,14 +90,14 @@ const Contact = () => {
           value={message}
         />
       </div>
-      <input
+      <div className="form-message"></div>
+    </form>
+      <button
         className="go-back"
         type="button"
         value="Envoyer"
         onClick={handleSubmit}
       />
-      <div className="form-message"></div>
-    </form>
     </address>
     </div>
     <Footer />
