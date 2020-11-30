@@ -14,20 +14,26 @@ const Home = () => (
     <Header />
     <h1>Club féminin Paradou les Alpilles</h1>
     <div className="lions-presentation">
-      <span className="picture-presentation">
+      <div className="picture-presentation">
+        <div className="lions-paradou">
         <img className="picture" src={photo} alt="lions-woman" />
+        <img className="picture" src="https://media.discordapp.net/attachments/739121254438666292/782973427295584256/logo_paradou.jpg" alt="lions-woman" />
+        </div>
         <h2>Convivialité et humanisme, 29 femmes lionistes</h2>
-      </span>
+      </div>
       <div className="cards-presentation">
         <div className="cards">
-          <Link to="/foire-au-gras"><h3 className="cards-title">La foire gourmande au Gras</h3></Link>
-            <div className="cards-img">
-              <img
-                src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/121553927_1348896165311689_4260808936534934848_o.png?_nc_cat=101&ccb=2&_nc_sid=dd9801&_nc_ohc=tCaxnZouYS0AX8OOhuu&_nc_ht=scontent-cdt1-1.xx&oh=40d36efb54758ba6f4778ee41ba5d556&oe=5FD94BEA"
-                alt="foire-au-gras"
-                className="cards-img"
-              />
-            </div>
+
+        <Link to="/foire-au-gras"><h3 className="cards-title">La foire gourmande au Gras</h3>
+          <div className="cards-img">
+            <img
+              src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/121553927_1348896165311689_4260808936534934848_o.png?_nc_cat=101&ccb=2&_nc_sid=dd9801&_nc_ohc=tCaxnZouYS0AX8OOhuu&_nc_ht=scontent-cdt1-1.xx&oh=40d36efb54758ba6f4778ee41ba5d556&oe=5FD94BEA"
+              alt="foire-au-gras"
+              className="cards-img"
+            />
+            
+          </div>
+
 
             <p className="cards-text">Cette année, en raison de la crise sanitaire, la Foire Gourmande au Gras de Fontvieille est annulée dans son format habituel.</p>
         </div>
