@@ -53,7 +53,8 @@ const Contact = () => {
       <h2>Contactez-nous</h2>
     <form className="contact-form">
       <div className="form-content">
-        <input
+        <div>
+          <input
           type="text"
           id="name"
           name="name"
@@ -61,17 +62,20 @@ const Contact = () => {
           placeholder="nom *"
           value={name}
           autoComplete="off"
-        />
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-          onChange={(e) => setPhone(e.target.value)}
-          placeholder="téléphone"
-          value={phone}
-        />
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            onChange={(e) => setPhone(e.target.value)}
+            placeholder="téléphone"
+            value={phone}
+          />
+          </div>
         <div className="email-content">
-          <label id="not-mail">Email non valide</label>
+          <label id="not-mail"></label>
           <input
             type="mail"
             id="email"
@@ -88,6 +92,8 @@ const Contact = () => {
           onChange={(e) => setMessage(e.target.value)}
           placeholder="message *"
           value={message}
+          rows="7" 
+          cols="50"
         />
       </div>
       <div className="form-message"></div>

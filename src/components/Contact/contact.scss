@@ -31,11 +31,13 @@ span:before {content:" "; display: block; }
 .contact-form {
     border: solid 1px;
     display:flex;
+    border-color: #EBEDEF;
 }
 
 .form-content {
     justify-content: center;
     width: 100%;
+    background-color: #d6dbdf;
 }
 
 input, textarea {
@@ -55,9 +57,14 @@ input, textarea {
     margin:1%; 
 }
 
+textarea {
+    resize: none;
+    overflow: scroll;
+}
+
 .send {
     width: 100px;
-    height: 40px;  
+  
     margin:1%;
     padding:1%;
     background: radial-gradient(circle, rgba(0,82,156,1) 0%, rgba(19,54,85,1) 130%);

@@ -11,6 +11,7 @@ const Club = () => (
       <div className="paragraph">
         <h1 className="club_title">Club Féminin Paradou les Alpilles</h1>
         <p>Le Lions Club Paradou-Les-Alpilles regroupent dans la convivialité et l'esprit de bonne camaraderie 29 femmes autour des valeurs humanistes du Lionisme</p>
+        <img className="picture" src="https://media.discordapp.net/attachments/739121254438666292/782973427295584256/logo_paradou.jpg" alt="lions-woman" />
       </div>
       <div className="paragraph">
         <h1 className="club_title">Qu'est ce que le Lions Club International?</h1>

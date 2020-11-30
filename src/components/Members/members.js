@@ -9,7 +9,7 @@ const Members = ( props ) => {
     return (
       <div className="member">
         <Header />  
-        <h1 className="member_title"> Members </h1>
+        <h1 className="member_title"> Membres du club </h1>
           <div className="pictureList">
             {
               list.map((cardObject) =>
