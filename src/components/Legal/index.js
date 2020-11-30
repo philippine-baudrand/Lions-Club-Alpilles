@@ -8,7 +8,7 @@ const Legal = () => (
 		<Header />
 		<div>
 			<h1>Mentions légales :</h1>
-			<p>Association à but non lucratif (loi 1901)</p>
+			<p>Association à but non lucratif ( loi 1901 )</p>
 			<div className="legal_contact">
 				<a className="legal_mail" href="mailto: j.hibelot@laposte.net"><i className="fa fa-envelope-o" /> Email : j.hibelot@laposte.net </a>
 				<a href="tel:+33610037884" > <i className="fa fa-phone" /> Tel : 06 10 03 78 84 </a>
