@@ -22,6 +22,7 @@ const Footer = () => (
     </div>
     <div className="copiright">
       <Link to="/contact"><span>Lions Club</span></Link>
+      <Link to="/Legal"><span>Mentions légales</span></Link>
       </div>
     </div>
   </footer>

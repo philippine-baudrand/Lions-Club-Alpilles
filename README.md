@@ -9,8 +9,6 @@ Projet bénévole pour le Lion's club féminin des Alpilles.
 
 <hr/>
 
-- [ X ] Mise en place des bases du projet.
-- [ X ] Création des wireFrames.
 
 ## Déféinition des besoins et des objectifs du projet
 
@@ -28,7 +26,11 @@ Projet bénévole pour le Lion's club féminin des Alpilles.
 
 5. Une page avec les photos du club.
 
-6. Une page contact.
+6. Une page contact avec un formulaire.
+
+7. Une page mentions legales.
+
+8. Une page 404.
 
     <Home />
     <Club />
