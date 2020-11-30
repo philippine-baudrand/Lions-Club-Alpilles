@@ -16,6 +16,7 @@ import VideCommode from '../Evt/evtPage/videCommode';
 import SalonCreateurs from '../Evt/evtPage/salonCréateurs';
 import Telethon from '../Evt/evtPage/téléthon';
 import Legal from '../Legal';
+import NotFound from '../NotFound';
 import './app.scss';
 
 
@@ -69,6 +70,9 @@ const App = () => (
       <Route exact path="/legal">
         <Legal />
       </Route>
+      <Route>
+          <NotFound />
+        </Route>
     </Switch>
 
   </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../Footer/footer';
 import Header from '../Header/header';
-import { Link } from 'react-router-dom';
 import './style.scss';
 
 const Legal = () => (
