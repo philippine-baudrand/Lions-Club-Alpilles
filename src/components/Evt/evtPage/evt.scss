@@ -28,13 +28,20 @@
 
  .bloc-foire-gras {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     color: black;
  }
 
- .christmas {
-   width: 200px;
-   height: 200px;
+ .picture-foire {
+   width: 100px;
+   height: 100px;
    object-fit: cover;
+   
+ }
+
+ .foire-50 {
+    width: 50%;
+    border: solid 1px;
+   
  }

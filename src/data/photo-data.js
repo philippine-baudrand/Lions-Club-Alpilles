@@ -3,6 +3,12 @@ export default [
         name: 'Photo',
         photo: 'https://media.discordapp.net/attachments/739121254438666292/781449071662596096/Presidente-.png?width=994&height=1259',
     },
+
+    {
+        name: 'Photo',
+        photo: 'https://media.discordapp.net/attachments/739121254438666292/783689826976137256/P1350290.JPEG',
+    },
+
     {
         name: 'Photo',
         photo: 'https://media.discordapp.net/attachments/739121254438666292/781451709209509898/masques.jpg',

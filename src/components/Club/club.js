@@ -10,7 +10,7 @@ const Club = () => (
     <div className="club">
       <div className="paragraph">
         <h1 className="club_title">Club Féminin Paradou les Alpilles</h1>
-        <p>Le Lions Club Paradou-Les-Alpilles regroupent dans la convivialité et l'esprit de bonne camaraderie 29 femmes autour des valeurs humanistes du Lionisme</p>
+        <p>Le Lions Club Paradou-Les-Alpilles regroupent dans la convivialité et l'esprit de bonne camaraderie 25 femmes autour des valeurs humanistes du Lions</p>
         <img className="picture" src="https://media.discordapp.net/attachments/739121254438666292/782973427295584256/logo_paradou.jpg" alt="lions-woman" />
       </div>
       <div className="paragraph">
@@ -41,9 +41,10 @@ const Club = () => (
       <div className="paragraph">
         <h1 className="club_title">Réunions</h1>
         <p>Quand ?</p>
-        <p>2ème et 4ème mercredis du mois</p>
+        <p>2ème mercredi du mois</p>
+        <p>4ème mardi du mois</p>
         <p>Où ?</p>
-        <p>2ème mercredi du mois - réunion statutaire suivi d'un repas - Salle polyvalente de Paradou les Alpilles 4ème mercredi du mois - réunion à la maison des associations d'Arles</p>
+        <p>2ème mercredi du mois - réunion statutaire suivi d'un repas - Salle polyvalente de Paradou les Alpilles 4ème mardi du mois - réunion à la maison des associations d'Arles</p>
       </div>
     </div>
     <Footer />
