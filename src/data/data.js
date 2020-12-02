@@ -79,7 +79,7 @@ export default [
 
     {
         name: ' Hibelot Joëlle ',
-        photo: 'https://cdn.discordapp.com/attachments/776028623555395634/777830946870263828/blank-profile-picture-973460_640.png',
+        photo: 'https://media.discordapp.net/attachments/739121254438666292/783735175225540648/IMG_7665.PNG?width=666&height=1185',
         fonction: 'Bénévole',
     },
 

@@ -34,14 +34,18 @@
  }
 
  .picture-foire {
-   width: 100px;
-   height: 100px;
+   width: 200px;
+   height: 200px;
    object-fit: cover;
    
  }
 
+.txt-foire {
+   display: flex;
+}
+
  .foire-50 {
     width: 50%;
-    border: solid 1px;
+/*     border: solid 1px; */
    
  }
