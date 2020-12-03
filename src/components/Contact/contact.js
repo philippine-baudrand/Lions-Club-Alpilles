@@ -146,8 +146,8 @@ const Contact = () => {
                         rows="7" 
                         cols="50"
                       />
+                    <div className="form-message" />
                     </div>
-                    <div className="form-message"></div>
                   </form>
                   <input
                     className="send"
