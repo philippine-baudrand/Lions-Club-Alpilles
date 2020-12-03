@@ -82,4 +82,25 @@ textarea {
     background: radial-gradient(circle, rgba(255,207,1,1) 0%, rgba(147,126,47,1) 150%);
     color:#00529C;
 
-  } 
+};
+
+.error::placeholder 
+{
+  color: #ff4d4d;
+};
+
+#not-mail 
+{
+    display: none;
+    top: 4px;
+    color: #ff4d4d;
+    right: 0;
+    transform-origin: 50% 50%;
+};
+
+.form-message
+{
+    width: 20%;
+    margin: 1rem auto;
+    border-radius: 10px;
+};
