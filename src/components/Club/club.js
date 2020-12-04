@@ -41,11 +41,17 @@ const Club = () => (
       </div>
       <div className="paragraph">
         <h2 className="club_title">Réunions</h2>
-        <p>Quand ?</p>
-        <p>2ème mercredi du mois</p>
-        <p>4ème mardi du mois</p>
-        <p>Où ?</p>
-        <p>2ème mercredi du mois - réunion statutaire suivi d'un repas - Salle polyvalente de Paradou les Alpilles 4ème mardi du mois - réunion à la maison des associations d'Arles</p>
+          <div className="image-reunion">
+            <img className="reunion" src="https://media.discordapp.net/attachments/739121254438666292/781451832262262804/72481986_1057806044420704_8735123251316916224_n.jpg" alt="lions-woman" />
+          </div>
+          <div className="text-reunion">
+            <h3>Quand ?</h3>
+            <p>2ème mercredi du mois</p>
+            <p>4ème mardi du mois</p>
+            <hr></hr>
+            <h3>Où ?</h3>
+            <p>2ème mercredi du mois - réunion statutaire suivi d'un repas - Salle polyvalente de Paradou les Alpilles 4ème mardi du mois - réunion à la maison des associations d'Arles</p>
+          </div>
       </div>
     </div>
     <Footer />
