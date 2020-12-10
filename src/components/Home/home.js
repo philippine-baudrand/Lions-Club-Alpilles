@@ -19,6 +19,7 @@ const Home = () => (
           <img className="picture" src={photo} alt="lions-woman" />
           <img className="picture" src="https://media.discordapp.net/attachments/739121254438666292/782973427295584256/logo_paradou.jpg" alt="lions-woman" />
         </div>
+        <p>Le Lions Clubs est un club service international de bénévoles. C'est la plus importante organisation de clubs philanthropiques du monde.</p>
         <h2>Convivialité et humanisme, 25 femmes lions</h2>
       </div>
       <div className="cards-presentation">
