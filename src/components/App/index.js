@@ -19,16 +19,14 @@ import Legal from '../Legal';
 import NotFound from '../NotFound';
 import './app.scss';
 
-
-// TODO HOME : faire des petites cards evt sur la page d'accueil avec un btn qui renvoi sur la page de l'evenement et pensez a verfier le css en mobile ( pas fait ) 
-// TODO CLUB : Revoir le css ( mise en page et ajout de photo ou logo )
-// TODO EVT : Faire la mise en page de événement avec lien ect 
-// TODO MEMBERS : Revoir la mise en page des img ( mobile )
-// TODO PHOTO : Verifier le css en version mobile.
+// TODO EVT ARLESIENNES : problème de bouton.
+// TODO CLUB : Revoir le css ( mise en page et ajout de photo ou logo ).
+// TODO EVT : Faire la mise en page de événement avec lien ect .
+// TODO PHOTO : changer le titre "photo".
 // TODO CONTACT : Faire le css du formulaire et faire les vérifications nécéssaire.
-// TODO faire une 404
-// TODO faire les mentions légales
-
+// TODO faire une 404.
+// TODO faire les mentions légales.
+// TODO RESPONSIVE : a faire.
 
 // == Composant
 const App = () => (
